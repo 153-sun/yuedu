@@ -1,0 +1,73 @@
+.scroll-img{
+   width: 180rpx;
+  height: 230rpx;
+} 
+.wan_fale{
+  width: 180rpx;
+  font-size: 30rpx;
+}
+.wan_fale>view{
+  width: 150rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  margin: auto;
+}
+.wan_move{
+  font-weight: bold;
+  color: #333;
+}
+.wan_dou{
+  font-size: 28rpx;
+  color: #999;
+}
+.scroll_seta{
+  display: inline-block;
+  margin: 20rpx 20rpx 10rpx 30rpx;
+}
+.view_scle{
+  white-space: nowrap;
+}
+.view_scle>view:nth-of-type(1){
+  margin-left: 30rpx;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+.ph_jie{
+ width: 90%;
+ margin: 30rpx auto; 
+ 
+}
+.ph_geng{
+  font-size: 28rpx;
+  color: #999;
+  margin-left: 330rpx;
+}
+.scroll_bequ{
+  padding-left:25rpx; 
+} 
+.bg {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 10;
+  -moz-opacity: 0.7;
+  opacity: 1;
+  filter: alpha(opacity=70);
+}
+
+
+
+
+
+
+
+

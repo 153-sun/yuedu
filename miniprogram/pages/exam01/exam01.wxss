@@ -1,0 +1,100 @@
+.shj_batefg{
+  width: 180rpx;
+  height:230rpx;
+  display: inline-block;
+}
+.shj_batefg1{
+  margin-bottom: 88rpx;
+}
+.shj_flet{
+  margin-top: 30rpx;
+}
+.shj_fguyan{
+  display: inline-block;
+  margin: 20rpx 30rpx;
+  position: relative;
+}
+.shj_contle{
+  width: 180rpx;
+  font-size: 30rpx;
+}
+.shj_contle>view{
+   width: 150rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  margin: auto;
+}
+.shj_turote{
+   font-weight: bold;
+  color: #333;
+}
+.shj_wate{
+  font-size: 28rpx;
+  color: #999;
+}
+.bg {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 10;
+  -moz-opacity: 0.7;
+  opacity: 1;
+  filter: alpha(opacity=70);
+}
+.xi_xihua{
+  width: 100%;
+  height: 100rpx;
+  border: 1rpx solid rgb(240, 236, 236);
+  position: absolute;
+  bottom: -10rpx;
+}
+.xi_xihua>view{
+  width: 50%;
+  display: inline-block;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 35rpx;
+}
+.xi_regta2{
+  background: red;
+  color: #fff;
+} 
+checkbox{
+  width: 32rpx;
+  height: 32rpx;
+  border-radius: 50%;
+  border: 1rpx solid red;
+  position: absolute;
+  top: 5rpx;
+  right: 7rpx;
+}
+checkbox .wx-checkbox-input {
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50%;
+  margin: -16rpx 7rpx 0 0;
+  background: transparent;
+  border: 1rpx solid transparent;
+}
+/*checkbox选中后样式  */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background: #FF525C;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  width: 28rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color: #fff;
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}

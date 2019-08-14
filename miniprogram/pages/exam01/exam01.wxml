@@ -1,0 +1,18 @@
+<view class='shj_flet'>
+ <view class="bg" bindtap='hideview' style='display:{{display}}'></view>
+  <checkbox-group bindchange="checkboxChange">
+    <view class='shj_fguyan' wx:for="{{shjlete}}" wx:key="index">  
+    <checkbox value='{{item._id}}' checked='{{item.checked}}' style='display:{{housilp}}'/> 
+    <image class='shj_batefg' src="http://statics.zhuishushenqi.com{{item.cover}}" bindlongpress="handle"></image>
+    <view class='shj_contle'>
+      <view class='shj_turote'>{{item.title}}</view>
+      <view class='shj_wate'>{{item.author}}</view>
+    </view>
+  </view>
+  <image src='../../images/12345.jpg' class='shj_batefg1 shj_batefg' bindtap='shj_defale'></image>
+  </checkbox-group>
+  <view class='xi_xihua' style='display:{{housilp}}'>
+    <view class='xi_regta1' bindtap='housp'>取消</view>
+    <view class='xi_regta2' bindtap='chedx'>删除</view>
+  </view>
+</view>

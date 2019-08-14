@@ -1,0 +1,53 @@
+.imgin{
+  width: 29%;
+  height: 240rpx;
+}
+.le_bate{
+  width: 95%;
+  margin: 40rpx auto;
+  position: relative;
+}
+.fn_sie{
+  font-weight: bold;
+  font-size: 35rpx;
+}
+.fn_xin{
+ font-size:30rpx;
+ overflow: hidden;
+ width: 435rpx;
+ height: 120rpx;
+ color: #999;
+ margin-top: 15rpx;
+}
+.fn_base{
+  position: absolute;
+  top: 0;
+  left: 33%;
+}
+.fn_heng{
+  margin-top: 15rpx;
+  font-size: 27rpx;
+  color: #555;
+ 
+}
+.fn_heng>text{
+  display: inline-block;
+  margin-right: 20rpx;
+}
+.fn_sao{
+  margin-left: 20rpx;
+}
+.fn_liu{
+  border: 2rpx solid #f1675a;
+  width: 65rpx;
+  padding: 1rpx 10rpx;
+  position: absolute;
+  left: 353rpx;
+}
+.coo{
+  color: red;
+}
+
+
+
+

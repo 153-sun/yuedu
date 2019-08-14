@@ -1,0 +1,51 @@
+{
+  "pages": [  
+   "pages/exam01/exam01",
+   "pages/exam02/exam02",
+   "pages/exam03/exam03",
+   "pages/exam04/exam04",
+    "pages/home/home",
+    "pages/comnt/comnt",
+    "pages/freate/freate",
+    "pages/search/search"
+    
+     
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "小说",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+     
+    "list": [
+      {
+      "pagePath": "pages/exam01/exam01",
+      "text": "书架",
+      "iconPath": "images/jia2.png",
+      "selectedIconPath": "images/jia1.png"
+     },
+      {
+        "pagePath": "pages/exam02/exam02",
+        "text": "榜单",
+        "iconPath": "images/bang2.png",
+        "selectedIconPath": "images/bang1.png"
+      },
+      {
+        "pagePath": "pages/exam03/exam03",
+        "text": "推荐",
+        "iconPath": "images/shu2.png",
+        "selectedIconPath": "images/shu1.png"
+      },
+      {
+        "pagePath": "pages/exam04/exam04",
+        "text": "分类",
+        "iconPath": "images/fen2.png",
+        "selectedIconPath": "images/fen1.png" 
+      }
+  ]
+  }
+}

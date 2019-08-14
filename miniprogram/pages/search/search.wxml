@@ -1,0 +1,14 @@
+<view>
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" show-action bind:search="onSearch"/> 
+<view class='le_bate' wx:for="{{metast}}" wx:key="index">
+     <image src= "http://statics.zhuishushenqi.com{{item.cover}}" class='imgin' bindtap='myster' data-id='{{item._id}}' data-title='{{item.title}}'></image> 
+      <view class='fn_base'>
+       <view class='fn_sie'>{{item.title}}</view>
+       <view class='fn_xin'>{{item.shortIntro}}</view>
+       <view class='fn_heng'>
+        <text>{{item.minorCate}}</text>|<text class='fn_sao'>{{item.author}}
+        </text><text class='fn_liu'>7.6分</text> 
+      </view>
+    </view>
+</view>
+</view>

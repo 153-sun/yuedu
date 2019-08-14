@@ -1,0 +1,43 @@
+<view>
+<view class="bg" bindtap='hideview' style='display:{{display}}'></view>
+  <van-search value="{{ value }}" placeholder="请输入搜索关键词"  bindtap="onSearch"/>
+  <view class='ph_jie'>
+    <text>完结好书,火速围观</text>
+    <text class='ph_geng' bindtap='phstreg'>更多></text>
+  </view>
+  <scroll-view scroll-x class='view_scle'>
+    <view class='scroll_seta' wx:for="{{str}}" wx:key="index" wx:if="{{index<9}}">
+      <image src='http://statics.zhuishushenqi.com{{item.cover}}' class="scroll-img" bindtap='myster' data-id='{{item._id}}' data-title="{{item.title}}"></image>
+      <view class='wan_fale'>
+        <view class='wan_move'>{{item.title}}</view>
+        <view class='wan_dou'>{{item.author}}</view>   
+      </view>
+    </view>  
+  </scroll-view>
+  <view class='ph_jie'>
+    <text>新书速递,火速围观</text>
+    <text class='ph_geng' bindtap='phxin'>更多></text>
+  </view>
+  <scroll-view scroll-x class='view_scle'>
+    <view class='scroll_seta' wx:for="{{metea}}" wx:key="index" wx:if="{{index<9}}">
+      <image src='http://statics.zhuishushenqi.com{{item.cover}}' class="scroll-img" bindtap='myster' data-id='{{item._id}}' data-title="{{item.title}}"></image>
+      <view class='wan_fale'>
+        <view class='wan_move'>{{item.title}}</view>
+        <view class='wan_dou'>{{item.author}}</view>   
+      </view>
+    </view>  
+  </scroll-view>
+  <view class='ph_jie'>
+    <text>火爆新书,火速围观</text>
+    <text class='ph_geng' bindtap='phsearte'>更多></text>
+  </view>
+  <view class='scroll_bequ'>
+    <view class='scroll_seta' wx:for="{{sester}}" wx:key="index" wx:if="{{index<9}}">
+      <image src='http://statics.zhuishushenqi.com{{item.cover}}' class="scroll-img" bindtap='myster' data-id='{{item._id}}' data-title="{{item.title}}"></image>
+      <view class='wan_fale'>
+        <view class='wan_move'>{{item.title}}</view>
+        <view class='wan_dou'>{{item.author}}</view>   
+      </view>
+    </view>  
+  </view>
+</view>

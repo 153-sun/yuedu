@@ -1,0 +1,14 @@
+<view>
+<view class="bg" bindtap='hideview' style='display:{{display}}'></view>
+  <view class='ex_nan'>男生</view> 
+  <view class='ex_nate' wx:for="{{male1}}" wx:key="index">
+    <image src='http://statics.zhuishushenqi.com{{item.bookCover[0]}}' class='ex_img' data-name="{{item.name}}" bindtap='exment'></image>
+    <text class='ex_xuan'>{{item.name}}</text>
+  </view>
+  <view class='ex_bleu'></view>
+  <view class='ex_nan ex_nv'>女生</view> 
+  <view class='ex_nate1 ex_nate' wx:for="{{female1}}" wx:key="index" >
+    <image src='http://statics.zhuishushenqi.com{{item.bookCover[0]}}' class='ex_img'  bindtap='exment1' data-name="{{item.name}}"></image>
+    <text class='ex_xuan'>{{item.name}}</text>
+  </view>
+</view>
